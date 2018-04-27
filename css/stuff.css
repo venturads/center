@@ -1,0 +1,199 @@
+#exit {
+	font-family:monospace;
+    position: absolute;
+    right:1em;
+    z-index: 999;
+}
+#exit:hover {
+	opacity: .3;
+}
+p:hover{
+    opacity: .3;
+}
+#navright{
+	z-index:999;
+    width:60px;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    display: block;
+	background-image: url("../img/navicon.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    right:30px;
+    top:40px;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+#navright:hover{
+    opacity: .3;
+}
+
+#a:hover{
+    opacity: .3;
+    z-index: 999;
+}
+#a{  
+    width:100px;
+    height: 80px;
+    margin: auto;
+    position: absolute;
+    display: block;
+	background-image: url("../img/navicon.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    left:100px;
+    right:100px;
+    top:100px;
+    bottom: 100px;
+}
+/* The animation code */
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+#b{
+
+	background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 100px;
+    overflow: auto;
+    width:100%;
+    height: 100%;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 1000px;
+}
+#home {
+	padding-top: 100px;
+}
+#d{
+ position: relative;
+  top:200px;
+  bottom:200px;
+}
+#c img{
+    top:200px;
+    display: inline;
+    position: relative;
+    float: left;
+    width:25%;
+    height: 25%;
+}
+#c img:hover{
+    box-shadow: 0 0 10px black;
+    z-index: 999;
+    opacity: .5;
+}
+#ap img{
+    top:200px;
+    display: inline;
+    position: relative;
+    float: left;
+    width:25%;
+    height: 25%;
+}
+#ap img:hover{
+    box-shadow: 0 0 10px black;
+    z-index: 999;
+    opacity: .5;
+}
+#cd img{
+    top:200px;
+    display: inline;
+    position: relative;
+    float: left;
+    width:25%;
+    height: 25%;
+}
+#cd img:hover{
+    box-shadow: 0 0 10px black;
+    z-index: 999;
+    opacity: .5;
+}
+#d a{
+    font-size: 5em;
+    top:100px;
+    bottom:100px;
+    display: inline;
+    position: relative;
+    color: lightgray;
+}
+#d a:hover{
+    z-index: 999;
+    opacity: .5;
+}
+#e h2{
+  color:black;
+}
+#e{	
+	float:left;
+	text-align: left;
+    width: 100%;
+	height:700px;
+	padding-left:auto;
+	padding-right:auto;
+    position: relative;
+	font-size:20px;
+   	padding-top:100px;
+}
+.whattitle{
+	padding-left:10%
+}
+#par1{
+	padding-left:10%;
+	width:40%;
+	float:left;
+}
+.ourtitle{
+	width:40%;
+    float:right;
+}
+#par2{
+	width:40%;
+	float:right;
+	padding-right:10%;
+}
+#f{
+	padding-top:20%;
+	display:block;
+	position:absolute;
+	width:100%;
+	font-size:20px;
+}
+/*-----------------------------------------------------------------------------------*/
+/*	MEDIA QUERIES
+/*-----------------------------------------------------------------------------------*/
+@media screen and (max-width: 800px) {
+    #c img{
+    top:150px;
+    display: inline;
+    position: relative;
+    float: left;
+    width:50%;
+    height: 50%;
+}
+    #c img:hover{
+    width:100%;
+    z-index: 999;
+}
+	#ap img:hover{
+    width:100%;
+    z-index: 999;
+}	
+	#cd img:hover{
+    width:100%;
+    z-index: 999;
+}
+  #d{
+  top:100px;
+  bottom:100px;
+}
+	
+}
